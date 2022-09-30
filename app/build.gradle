@@ -10,14 +10,14 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId 'com.github.libretube'
-        minSdk 21
-        targetSdk 33
+        applicationId 'com.realm.materialyou'
+        minSdk 20
+        targetSdk 21
         versionCode 19
-        versionName '0.6.0'
+        versionName '1.49'
         multiDexEnabled true
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
-        resValue "string", "app_name", "LibreTube"
+        resValue "string", "app_name", "Material YouTube"
     }
 
     buildFeatures {
